@@ -1,0 +1,62 @@
+@import "variables.less";
+@import "mixins.less";
+
+@import "bootstrap.less";
+
+body {
+font: 15px/1.7em "Source Sans Pro", Arial, sans-serif;
+
+background-color: #fff;
+}
+
+@highlight: #CF0A2C;
+@background: #FFF;
+@links: #43A39F;
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 125px;
+}
+
+h1{
+  color: #555;
+  color: darken(#33C3F0, 40%);
+
+  font-weight: 300;
+
+  text-align: center;
+}
+
+a{
+  color: @links;
+}
+
+.description{
+  margin: 3em auto;
+}
+
+.button-holder{
+  text-align: center;
+}
+
+.download-btn {
+	padding-right: 40px;
+	padding-left: 40px;
+
+	text-transform: uppercase;
+}
+
+.btn-primary {
+  .button-variant(#fff, #33C3F0, darken(#33C3F0, 2.5%));
+}
+
+
+
+.feature-icon {
+	margin-bottom: .5em;
+
+	color: darken(#33C3F0, 40%);
+
+	font-size: 44px;
+}
